@@ -1,25 +1,19 @@
+@import url(../../../App.css);
+
+
 .header { 
-    background-color:#1b7553; 
-    border-bottom: 1px solid #fff; 
+    background-color: var(--color-success); 
+    border-bottom: 1px solid var(--color-light); 
     width: 100%; 
 } 
 
 .header-container { 
     max-width: 1024px; 
     height: 60px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
     padding: 5px 20px; 
     margin: 0 auto; 
 } 
 
-.header-logo-box { 
-    display: flex; 
-    align-items: center; 
-    text-decoration: none; 
-} 
- 
 .header-logo { 
     width: 26px; 
     height: 26px; 
@@ -27,24 +21,19 @@
 } 
 
 .header-name-company { 
-    color: #fff; 
+    color: var(--color-light); 
     font-size: 26px; 
-    text-decoration: none; 
-    text-transform: uppercase; 
 } 
 
 .header-link { 
-    color: #fff; 
-    text-decoration: none; 
+    color: var(--color-light); 
     padding: 0px 15px 10px 15px; 
-    text-transform: uppercase; 
-    line-height: 18px; 
-    text-decoration: none; 
+    line-height: 18px;  
     font-weight: 600; 
 } 
 
 .header-link:hover { 
-    border-bottom: 3px solid #fff; 
+    border-bottom: 3px solid var(--color-light); 
 } 
 
  

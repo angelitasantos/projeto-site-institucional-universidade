@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import '../../../App.css';
+
 import Header from '../../shared/header/Header';
 import Footer from '../../shared/footer/Footer';
 

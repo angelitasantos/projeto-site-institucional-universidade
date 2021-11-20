@@ -1,13 +1,12 @@
+@import url(../../../App.css);
+
 .footer { 
     width: 100%; 
 } 
 
 .footer-container { 
-    background-color:#09180a; 
-    color: #fff; 
+    background-color: var(--color-primary);
+    color: var(--color-light); 
     height: 40px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
     margin-top: 40px; 
 }
