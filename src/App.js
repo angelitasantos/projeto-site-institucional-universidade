@@ -11,9 +11,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <Reset />
       <Routes />
-      <div className="App">
-        Learn React <i class="fas fa-home"></i>
-      </div>
     </ThemeProvider>
   );
 }
