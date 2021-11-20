@@ -10,10 +10,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Reset />
+      <Routes />
       <div className="App">
         Learn React <i class="fas fa-home"></i>
       </div>
-      <Routes />
     </ThemeProvider>
   );
 }
