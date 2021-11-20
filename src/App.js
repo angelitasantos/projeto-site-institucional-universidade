@@ -4,6 +4,7 @@ import { Reset } from 'styled-reset';
 
 import theme from './theme';
 import './App.css';
+import Routes from './components/routes';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
         Learn React <i class="fas fa-home"></i>
       </div>
+      <Routes />
     </ThemeProvider>
   );
 }
