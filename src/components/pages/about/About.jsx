@@ -1,16 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import '../../../App.css';
 
 import Header from '../../shared/header/Header';
+import QuemSomos from './QuemSomos';
 import Footer from '../../shared/footer/Footer';
 
 const About = () => (
     <div>
         <Header />
-        <h1>About</h1>
-        <Link className="btn" to='/'>Home</Link>
+        <QuemSomos />
         <Footer />
     </div>
 );

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: ${({ theme: { colors } }) => colors.success};
-  color: ${({ theme: { colors } }) => colors.light};
+  background-color: ${({ theme: { colors } }) => colors.light};
+  color: ${({ theme: { colors } }) => colors.success};
 `;
 
 export const ContainerSidebar = styled.aside`
