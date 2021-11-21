@@ -1,11 +1,9 @@
 import React from 'react';
 
-import './home.css'
-
-import { Container } from '../../styles';
+import './about.css'
 
 const QuemSomos = () => (
-    <Container className="container-quemsomos">
+    <div className="container-quemsomos">
         <h1 className="title-1 text-align-center padding-top-15">Quem Somos</h1>
         <h3 className="title-3 text-align-center padding-v-15">Trabalhamos em parceria presencial com empreendedores,
             artesãos, produtores, microempreendedores individuais e pequenas empresas com serviços especializados em 
@@ -16,7 +14,7 @@ const QuemSomos = () => (
             e pelos consumidores. Os serviços da SanLis são elaborados de acordo com a realidade de cada negócio 
             identificando e propondo soluções adequadas ao perfil do cliente.
         </h3>
-    </Container>
+    </div>
 );
 
 export default QuemSomos;
